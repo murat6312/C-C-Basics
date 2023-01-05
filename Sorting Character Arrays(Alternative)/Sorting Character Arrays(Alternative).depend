@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1576844011 source:c:\users\murra\onedrive\masaüstü\ccc\sorting character arrays(alternative)\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

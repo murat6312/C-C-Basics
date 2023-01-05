@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1575117260 source:c:\users\murra\onedrive\masaüstü\ccc\random number\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
