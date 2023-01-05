@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1598356425 source:c:\users\murra\onedrive\masaüstü\ccc\lab11\main.cpp
+	<iostream>
+	"Shapes.h"
+
+1598356666 c:\users\murra\onedrive\masaüstü\ccc\lab11\shapes.h
+	<string>
+

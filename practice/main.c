@@ -1,0 +1,36 @@
+#include <iostream>
+
+using namespace std;
+
+class Circle{
+
+    public:
+
+        void set_radius(float r){
+            radius=r;
+        }
+        float get_radius(){
+            return radius;
+        }
+        float circumference(){
+            return 2*3*radius;
+        }
+        float area(){
+            return 3*radius*radius;
+        }
+
+    private:
+        float radius;
+};
+
+int main(){
+	Circle cir1,cir2;
+	cir1.set_radius(3);
+	float rad;
+	cin>>rad>>endl;
+	cir2.set_radius(rad);
+	cout<<"areas:";
+	cout<<cir1.area()<<"\n"<<cir2.area()<<endl;
+	cout<<"circumferences:";
+	cout<<cir1.circumference()<<"\n"<<cir2.circumference()<<endl;
+}
