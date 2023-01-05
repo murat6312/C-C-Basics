@@ -1,0 +1,55 @@
+#include <iostream>
+
+using namespace std;
+
+class Account{
+
+public:
+    Account(int b){
+        balance=b;
+        if(b<0){
+            cout<<"Initial balance was invalid!!";
+            balance=0;
+        }
+    }
+
+    void credit(int c){
+        balance+=c;
+    }
+
+    void debit(int d){
+        if(balance<d){
+            cout<<"Debit amount exceeded account balance."<<endl;
+        }else{
+        balance-=d;
+        }
+    }
+
+    int getBalance(){
+        return balance;
+    }
+
+private:
+    int balance;
+};
+
+int main(){
+    int a,b;
+    Account account1(50);
+    Account account2(25);
+
+    cout<<"account1 balance:"<<account1.getBalance()<<endl;
+    cout<<"account2 balance:"<<account2.getBalance()<<endl;
+
+    cout<<"enter withdrawal amount for account1:";
+    cin>>a;
+    account1.debit(a);
+
+    cout<<"enter adding amount for account2:";
+    cin>>b;
+    account2.credit(b);
+
+    cout<<"account1 balance:"<<account1.getBalance()<<endl;
+    cout<<"account2 balance:"<<account2.getBalance()<<endl;
+
+}
