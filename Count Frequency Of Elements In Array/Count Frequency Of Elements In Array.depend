@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1574255334 source:c:\users\murra\onedrive\masaüstü\ccc\count frequency of elements in array\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+
