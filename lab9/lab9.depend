@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1597951563 source:c:\users\murra\onedrive\masaüstü\ccc\lab9\120_lab9.cpp
+	"myVector.h"
+
+1597952611 c:\users\murra\onedrive\masaüstü\ccc\lab9\myvector.h
+	<iostream>
+	<string>
+

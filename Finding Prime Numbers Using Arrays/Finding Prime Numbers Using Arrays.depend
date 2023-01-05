@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1574240016 source:c:\users\murra\onedrive\masaüstü\ccc\finding prime numbers using arrays\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+
